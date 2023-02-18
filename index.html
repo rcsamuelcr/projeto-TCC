@@ -8,57 +8,15 @@
     <title>Document</title>
 </head>
 <body>
-    <main>
-        <div class="container div-esquerda">
-            <div class="header">
-                <div>
-                        <h1>NOME DO JOGO</h1>
-                </div>
-                <div id="level-counter">
-                    <span class="arrow left" id="btnLeft">
-                      <span class="triangle"></span>
-                    </span>
-                    <span id="level-indicator">
-                      <span id="labelLevel" class="translate">Nível</span>
-                      <span class="current" id="level">1</span>
-                      <span id="labelOf" class="translate">de</span>
-                      <span class="total">24</span>
-                    </span>
-                    <span class="arrow right" id="btnRight">
-                      <span class="triangle"></span>
-                    </span>
-                  </div>
-            </div>
-            <div class="instrucoes">
+    <main class="inicial">
+        <div class="container-iniciar">
+            <div>
+                <h1>NOME DO JOGO</h1>
+            <div>
                 <p>Um jogo desenvolvido para que alunos possam trazer a tona os conhecimentos adquiridos em sala de aula. A fim de prática-los de forma dinâmica, revisando e e aprendendo um pouco de lógica cumputacional.</p>
             </div>
-            <div id="editor">
-                <div id="css">
-                    <div class="line-numbers">
-                        1<br>
-                        2<br>
-                        3<br>
-                        4<br>
-                        5<br>
-                        6<br>
-                        7<br>
-                        8<br>
-                        9<br>
-                        10
-                    </div>
-                    <div id="before" class="pre">
-#pond{
-    display: flex;
-    flex-wrap: wrap;<input type="text" id="code"><div id="after" class="pre">}</div>
-                    </div>
-                    <button id="next" class="translate disabled">Next</button>
-                </div>
-            </div>
-        </div>
-            
-        <div class="container div-direita">
-            
-        </div>
+            <a href="desafios/desafios.html"><button id="iniciar" class="translate disabled">Iniciar</button></a>
+        </div>  
     </main>
 
     <script src="js/script.js"></script>
